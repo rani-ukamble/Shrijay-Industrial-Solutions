@@ -10,6 +10,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
+  
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -27,7 +28,30 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 45px;
+      }
+      .hero p {
+        display: block; /* Ensure the paragraph is displayed on small screens */
+      }
+    }
+  
+    .hero p {
+      animation: fadeInDown 1s both 0.2s;
+       /* Hide the paragraph by default */
+    }
+  
+    @media (min-width: 1024px) {
+      .hero h2,
+      .hero p {
+        max-width: 60%;
+      }
+    }
+  </style>
 
+  
 </head>
 
 <body class="index-page">
@@ -39,7 +63,7 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <img src="assets/img/l.jpg" alt="" class="resized-image">
-        <h1 class="sitename">Shrijay</h1>
+        <!-- <h1 class="sitename">Shrijay</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -47,32 +71,123 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <!-- <li><a href="#services">Services</a></li> -->
-          <li><a href="#portfolio">Products</a></li>
-          <!-- <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+
+
+
+          <!-- <li><a href="#team">Team</a></li> -->
+
+<!--  -->
+          <!--  -->
+          <li class="dropdown"><a href="#portfolio"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <!-- <li><a href="#">Dropdown 1</a></li> --> 
+
+              <li class="dropdown"><a href="#"><span>Pallet Trucks</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
+                  <li><a href="#">Super low profile hydraulic pallet truck</a></li>
+                  <li><a href="#">5000 kg hydraulic pallet truck</a></li>
+                  <li><a href="#">Reel pallet truck</a></li>
+                  <li><a href="#">Scissor pallet truck</a></li>
+                  <li><a href="#">Stainless-steel pallet truck</a></li>
+                  <li><a href="#">Weighing scale pallet truck</a></li>
+                  <li><a href="#">Super low profile hydraulic pallet truck</a></li>
+                  <li><a href="#">Semi-electric pallet truck</a></li>
+                  <li><a href="#">1600 kg Electric pallet truck</a></li>
+                </ul>
+              </li> 
+
+              <li class="dropdown"><a href="#"><span>Table Trucks</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Platform Hand Truck</a></li>
+                  <li><a href="#">Scissor lift table truck</a></li>
+                  <li><a href="#">Platform stacker</a></li>
+                  <li><a href="#">Electric scissor lift table truck</a></li>
+                  <li><a href="#">3000 kg hydraulic pallet truck</a></li>
+                </ul>
+              </li> 
+
+              <li class="dropdown"><a href="#"><span>Satckers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Electric pallet Stckers</a></li>
+                  <li><a href="#">Manual Stacker</a></li>
+                  <li><a href="#">Semi Electric Stacker</a></li>
+                  <li><a href="#">Economy Power Stacker</a></li>
+                  <li><a href="#">Heavy Duty Power Stacker</a></li>
+                </ul>
+              </li> 
+
+              <li class="dropdown"><a href="#"><span>Forklifts and Reach Satckers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Electric Reach Trucks</a></li>
+                  <li><a href="#">Electrical Forklift Trucks</a></li>
                 </ul>
               </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+
+              <li class="dropdown"><a href="#"><span>Docking Equipment</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Stationery Scissor Lift</a></li>
+                  <li><a href="#">Edge Dock Leveler</a></li>
+                  <li><a href="#">Hydraulic Dock Leveler</a></li>
+                  <li><a href="#">Mobile Ramp</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Goods Lift</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Hydraulic Goods Lift</a></li>
+                  <li><a href="#">Hoist Goods Lift</a></li>
+                  <li><a href="#">Vertical Reciprocating Conveyor</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Order Peakers and Loaders</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Mobile Order Picker</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Drum Handlers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Crane Attachment</a></li>
+                  <li><a href="#">Single Parrot Beak Fork Attachment</a></li>
+                  <li><a href="#">Double Parrot Beak Fork Attachment</a></li>
+                  <li><a href="#">4 Wheel Drum Trolley</a></li>
+                  <li><a href="#">3 Wheel Drum Trolley</a></li> 
+                  <li><a href="#">Drum Palletizer</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Crane</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">EOT Crane</a></li>
+                  <li><a href="#">Jib Crane</a></li>
+                </ul>
+              </li> 
+
+              <li class="dropdown"><a href="#"><span>Press Machine</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Pneumatic Press Machine</a></li>
+                  <li><a href="#">Hydraulics Press Machine</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">CNC</a></li>
+              <li><a href="#">VMC</a></li>
+              
+              <li><a href="#">Power Crimping Tool</a></li>
+
+              
             </ul>
-          </li> -->
+          </li> 
+
+
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <!-- <a class="btn-getstarted" href="index.html#about">Get Started</a> -->
-      <a class="btn-getstarted" href="#">Message Us</a>
+
     </div>
   </header>
 
@@ -88,7 +203,7 @@
           <img src="assets\img\bg1.jpg" alt="">
           <div class="carousel-container">
             <h2>Shrijay <br>Industrial Solutions</h2>
-            <p>We Provide Maintenance tools and Spare parts <br> for MHE, CNC, VMC and EOT Cranes <br>in the Industry</p>
+            <p>We Provide Maintenance tools and Spare parts for MHE, CNC, VMC and EOT Cranes in the Industry</p>
             <a href="#featured-services" class="btn-get-started">Message Us</a>
           </div>
         </div><!-- End Carousel Item -->
@@ -100,8 +215,12 @@
             <!-- <h2 style="color: yellow;">Shrijay</h2> -->
              <!-- <h2></h2> -->
             <h2>Shrijay <br>Industrial Solutions</h2>
-            <p >We Provide Maintenance tools and Spare parts <br> for MHE, CNC, VMC and EOT Cranes <br>in the Industry</p>
+            <p>CNC / VMC / EOT Crane Maintenance, Material Handling Equipment Maintenance, Hydraulic & Pneumatic Press Machine Maintenance, Spare Parts Supply, Tools Supply</p>
+            <!-- <p >We Provide Maintenance tools and Spare parts <br> for MHE, CNC, VMC and EOT Cranes <br>in the Industry</p> -->
             <a href="#featured-services" class="btn-get-started">Message Us</a>
+
+            <!-- <a href="https://wa.me/8669747214">Message Us</a> -->
+
           </div>
         </div><!-- End Carousel Item -->
 
@@ -467,7 +586,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Products</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -502,7 +621,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets\img\p3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Table Trucks</h4>
+                <h4>Stacker</h4>
                 
               </div>
             </div><!-- End Portfolio Item -->
@@ -510,7 +629,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets\img\p4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
+                <h4>Forklift</h4>
                 
               </div>
             </div><!-- End Portfolio Item -->
@@ -518,7 +637,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img src="assets\img\p5.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Books 1</h4>
+                <h4>Docking equipment</h4>
                 
               </div>
             </div><!-- End Portfolio Item -->
@@ -528,7 +647,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets\img\p6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
+                <h4>Goods lift</h4>
                
               </div>
             </div><!-- End Portfolio Item -->
@@ -539,8 +658,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets\img\p8.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                
+                <h4>Order pickers and Ladders</h4> 
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -548,10 +666,62 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets\img\p7.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-               
+                <h4>Drum handlers</h4>
+              </div>
+            </div><!-- End Portfolio Item --> 
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\jib-crane.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Jib Cranes</h4>
               </div>
             </div><!-- End Portfolio Item -->
+
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\press2.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pneumatic Press Machine</h4>
+              </div>
+            </div><!-- End Portfolio Item --> 
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\industrial-eot-cranes.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>EOT Cranes</h4>
+              </div>
+            </div><!-- End Portfolio Item --> 
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\hydr_press.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hydraulic Press Machine</h4>
+              </div>
+            </div><!-- End Portfolio Item --> 
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\VMC.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>VMC</h4>
+              </div>
+            </div><!-- End Portfolio Item -->  
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets\img\cnc.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CNC</h4>
+              </div>
+            </div><!-- End Portfolio Item -->  
+
+
+            
+
+           
+
+            
 
           </div><!-- End Portfolio Container -->
 
@@ -794,7 +964,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Whether you have a query, need more information, we are just a message away.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -805,7 +975,10 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Shop No. 17, Saichatra App.,</p>
+              <p>Satpur Ambad Link Road, </p>
+              <p>Nashik-422007</p>
+              <p>Maharashtra, India</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -813,7 +986,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+91 9405654026</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -821,7 +994,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@example.com</p>
+              <p>mdshrijay@gmail.com</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -869,13 +1042,15 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Groovin</span>
+            <span class="sitename">Shrijay</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Shop No. 17, Saichatra App.,</p>
+              <p>Satpur Ambad Link Road, </p>
+              <p>Nashik-422007</p>
+              <p>Maharashtra, India</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 9405654026</span></p>
+            <p><strong>Email:</strong> <span>mdshrijay@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -890,24 +1065,23 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">CNC / VMC / EOT Crane Maintenance</a></li>
+            <li><a href="#">Material Handling, Equipment Maintenance</a></li>
+            <li><a href="#">Hydraulic & Pneumatic Press Machine Maintenance</a></li>
+            <li><a href="#">Spare Parts Supply</a></li>
+            <li><a href="#">Tools Supply</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-12 footer-newsletter">
+        <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
@@ -916,19 +1090,19 @@
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
-        </div>
+        </div> -->
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Groovin</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Shrijay</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">Rani Kamble</a>
       </div>
     </div>
 
